@@ -60,17 +60,7 @@ class ContactType extends AbstractType
 		            ])
 	            ]
             ])
-            ->add('message', TextareaType::class, [
-	            'constraints' => [
-		            new NotBlank([
-			            'message' => "Le message est obligatoire"
-		            ]),
-		            new Length([
-			            'min' => 20,
-			            'minMessage' => "Le message doit comporter {{ limit }} caractères au minimum"
-		            ])
-	            ]
-            ])
+            
         ;
     }
 

@@ -17,7 +17,7 @@ class AppExtension extends AbstractExtension implements GlobalsInterface
 	public function getGlobals()
 	{
 		return [
-			'site_name' => 'TiTo Salgado | Brief',
+			'site_name' => 'Cacaochella | Brief',
 			'GA_code' => 'XXXX-XXXXXXX-XXXXXX'
 		];
 	}

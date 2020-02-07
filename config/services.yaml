@@ -27,8 +27,6 @@ services:
     # please note that last definitions always *replace* previous ones
 
     # souscripteur doctrine
-    App\EventSubscriber\Entity\OeuvreSubscriber:
-        tags: [ 'doctrine.event_subscriber' ]
 
 
 

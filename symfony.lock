@@ -111,11 +111,47 @@
     "fzaninotto/faker": {
         "version": "v1.9.0"
     },
+    "illuminate/container": {
+        "version": "v6.14.0"
+    },
+    "illuminate/contracts": {
+        "version": "v6.14.0"
+    },
+    "illuminate/events": {
+        "version": "v6.14.0"
+    },
+    "illuminate/filesystem": {
+        "version": "v6.14.0"
+    },
+    "illuminate/http": {
+        "version": "v6.14.0"
+    },
+    "illuminate/pipeline": {
+        "version": "v6.14.0"
+    },
+    "illuminate/routing": {
+        "version": "v6.14.0"
+    },
+    "illuminate/session": {
+        "version": "v6.14.0"
+    },
+    "illuminate/support": {
+        "version": "v6.14.0"
+    },
+    "illuminate/view": {
+        "version": "v6.14.0"
+    },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
+    "laravelcollective/html": {
+        "version": "v6.0.3"
+    },
     "monolog/monolog": {
         "version": "1.25.1"
+    },
+    "nesbot/carbon": {
+        "version": "2.29.1"
     },
     "nikic/php-parser": {
         "version": "v4.3.0"
@@ -126,6 +162,9 @@
     "ocramius/proxy-manager": {
         "version": "2.2.3"
     },
+    "php": {
+        "version": "7.3"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -134,6 +173,9 @@
     },
     "psr/log": {
         "version": "1.1.2"
+    },
+    "psr/simple-cache": {
+        "version": "1.0.1"
     },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
@@ -372,6 +414,19 @@
             "./config/packages/dev/swiftmailer.yaml",
             "./config/packages/swiftmailer.yaml",
             "./config/packages/test/swiftmailer.yaml"
+        ]
+    },
+    "symfony/translation": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "2ad9d2545bce8ca1a863e50e92141f0b9d87ffcd"
+        },
+        "files": [
+            "./config/packages/translation.yaml",
+            "./translations/.gitignore"
         ]
     },
     "symfony/translation-contracts": {
